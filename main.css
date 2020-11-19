@@ -183,9 +183,7 @@ section.about .flex1{
     /*header #main-nav{
         display: none;
     }*/
-    header{
-        width: 100vw;
-    }
+    
     header nav .middle a{
         margin-right: 0.5rem;
     }
@@ -227,7 +225,7 @@ section.about .flex1{
             width: 50px;
         }
         .pic2{
-            width: 180px;
+            width: 100px;
         }
         .c-wrap{
             display: grid;
