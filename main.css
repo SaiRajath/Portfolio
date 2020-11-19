@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smotthing:antialised;
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color:black;
+    text-align: center;
+}
+header nav .middle a{
+    color:  #ffffff;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+header nav .middle a:hover{
+    color: #3dcfd3;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav{
+    padding: 2rem 0;
+}
+.right{
+color: #ffffff;
+margin-top: 6rem;
+}
+.right h6{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.right h4{
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 4rem;   
+}
+.right h4 span{
+    color:violet;
+}
+.btn{
+    background : transparent;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-color: white;
+    margin-bottom: 2rem;
+}
+.btn:hover{
+    background: #3dcfd3;
+    border-color: #3dcfd3;
+    color: black;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    height: 450px;
+    width: 400px;
+}
+.flex1{
+    flex: 0.8;
+}
+.head{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(165, 27, 27);
+}
+section.about .flex1 spam{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+section.about .flex1{
+    line-height: 25px;
+    color: rgb(9, 10, 10);
+}
+
+.skills{
+    text-align: center;
+    background-color: black;
+}
+.know{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(165, 27, 27);
+    margin-bottom: 3rem;
+}
+.lower-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+   grid-row-gap: 2rem;  
+}
+.card{
+    padding: 1rem 2rem;
+}
+.skills .card h5{
+    height: 50px;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 2px;
+    padding: 2% 5%;
+    border: 0.5px solid white;
+}
+
+
+.hobbies{
+    text-align: center;
+}
+.color{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(165, 27, 27);
+    margin-bottom: 3rem;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:2rem ;
+}
+.pic{
+    width: 100px;
+}
+
+.project{
+    text-align: center;
+    background-color: black;
+}
+.c-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:2rem ;
+    grid-column-gap: 2rem;
+}
+.pic2 {
+    width: 450px;
+}
+
+.space{
+    margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.sp{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(165, 27, 27);
+    margin-bottom: 1rem;
+}
+.center
+{
+    line-height: 35px;
+}
+.lg{
+    height: 20px;
+}
+.ig{
+    width: 50px;
+}
+.social-media{
+    margin-top: 1rem;
+}
+.size{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+@media (max-width:1440px){
+    /*header #main-nav{
+        display: none;
+    }*/
+    header{
+        width: 100vw;
+    }
+    header nav .middle a{
+        margin-right: 0.5rem;
+    }
+    .right{
+        margin-top: 3rem;
+        }
+        .right h6{
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+        .right h4{
+            font-size: 2rem;
+            margin-bottom: 2rem;   
+        }
+        .photo{
+            height: 225px;
+            width: 200px;
+        }
+        .container{
+            flex-direction: column;
+        }
+        .up{
+            margin-top: 2rem;
+            text-align: center;
+        }
+    .skills{
+         width: 100vw;   
+        }
+        .know{
+            margin-bottom: 3rem;
+        }
+        .card{
+            padding: 0.5rem 1rem;
+        }
+        .skills .card h5{
+            font-size: 2rem;  
+        }
+        .pic{
+            width: 50px;
+        }
+        .pic2{
+            width: 180px;
+        }
+        .c-wrap{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
